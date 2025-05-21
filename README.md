@@ -4,9 +4,9 @@ This project predicts the Remaining Useful Life (RUL), forecasts future RUL tren
 
 ## Features
 
-- 🧠 RUL Prediction using LSTM/CNN-LSTM
-- 🔮 RUL Forecasting using Seq2Seq or Transformer
-- ⚠️ Anomaly Detection using Autoencoder or Isolation Forest
+- 🧠 RUL Prediction using XGBoost
+- 🔮 RUL Forecasting 
+- ⚠️ Anomaly Detection using Autoencoder 
 
 ## Installation
 
