@@ -17,7 +17,7 @@ time-series-rul-anomaly/
 │   └── download_cmapss_dataset.ipynb               # Original NASA CMAPSS dataset file
 ├── models/                                         # Saved model files
 │   ├── xgboost/                                    # XGBoost model artifacts
-│   ├── lstm_autoencoder/                           # LSTM autoencoder model artifacts
+│   ├── lstm_autoencoder/FD00X/                     # LSTM autoencoder model artifacts
 │   └── lstm_forecaster/                            # LSTM forecaster model artifacts
 ├── src/
 │   ├── data_preparation.ipynb                      # Data loading and analyzing
