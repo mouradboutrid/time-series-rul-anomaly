@@ -18,7 +18,7 @@ time-series-rul-anomaly/
 ├── models/                                         # Saved model files
 │   ├── xgboost/                                    # XGBoost model artifacts
 │   ├── lstm_autoencoder/FD00X/                     # LSTM autoencoder model artifacts
-│   └── lstm_forecaster/                            # LSTM forecaster model artifacts
+│   └── lstm_forecaster/                            # LSTM forecaster model artifacts only for fd004 datatype
 ├── src/
 │   ├── data_preparation.ipynb                      # Data loading and analyzing
 │   ├── xgboost_rul_prediction.ipynb                # XGBoost model training and evaluation
