@@ -13,17 +13,17 @@ The project leverages advanced time series modeling, machine learning, and deep 
 ```
 time-series-rul-anomaly/
 │
-├── data/                               # Raw and preprocessed CMAPSS data
-│   └── raw/                            # Original NASA CMAPSS dataset file
-├── models/                             # Saved model files
-│   ├── xgboost/                        # XGBoost model artifacts
-│   ├── lstm_autoencoder/               # LSTM autoencoder model artifacts
-│   └── lstm_forecaster/                # LSTM forecaster model artifacts
+├── data/                                           # Raw and preprocessed CMAPSS data
+│   └── download_cmapss_dataset.ipynb               # Original NASA CMAPSS dataset file
+├── models/                                         # Saved model files
+│   ├── xgboost/                                    # XGBoost model artifacts
+│   ├── lstm_autoencoder/                           # LSTM autoencoder model artifacts
+│   └── lstm_forecaster/                            # LSTM forecaster model artifacts
 ├── src/
-│   ├── data_preparation.ipynb       # Data loading and analyzing
-│   ├── xgboost_rul_prediction.ipynb # XGBoost model training and evaluation
-│   ├── lstm_autoencoder_anomaly_detection.ipynb # lstm_autoencoder model training and evaluation
-│   └── lstm_forecaster_rul_prediction.ipynb # lstm_forecaster model training and evaluation
+│   ├── data_preparation.ipynb                      # Data loading and analyzing
+│   ├── xgboost_rul_prediction.ipynb                # XGBoost model training and evaluation
+│   ├── lstm_autoencoder_anomaly_detection.ipynb    # lstm_autoencoder model training and evaluation
+│   └── lstm_forecaster_rul_prediction.ipynb        # lstm_forecaster model training and evaluation
 ├── scripts/
 │   ├── feature_engineering.py          # Feature extraction and engineering function
 │   └── visualization.py                # Plotting and visualization functions
