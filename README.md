@@ -23,16 +23,12 @@ time-series-rul-anomaly/
 │   ├── data_preparation.ipynb                      # Data loading and analyzing
 │   ├── xgboost_rul_prediction.ipynb                # XGBoost model training and evaluation
 │   ├── lstm_autoencoder_anomaly_detection.ipynb    # lstm_autoencoder model training and evaluation
-│   └── lstm_forecaster_rul_prediction.ipynb        # lstm_forecaster model training and evaluation
-├── scripts/
-│   ├── feature_engineering.py          # Feature extraction and engineering function
-│   └── visualization.py                # Plotting and visualization functions
+│   └── lstm_forecaster_rul_prediction.ipynb        # lstm_forecaster model training and evaluation             
 ├── results/                            # Performance metrics and visualizations
 │   ├── validation/                        # Generated plots and charts
 │   └── metrics/                        # Model performance metrics
 ├── requirements.txt                    # Python dependencies
 ├── setup.py                            # Package installation script
-├── .gitignore                          # Git ignore file
 └── README.md                         
 ```
 
