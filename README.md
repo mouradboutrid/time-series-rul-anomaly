@@ -14,35 +14,26 @@ The project leverages advanced time series modeling, machine learning, and deep 
 time-series-rul-anomaly/
 │
 ├── data/                               # Raw and preprocessed CMAPSS data
-│   ├── raw/                            # Original NASA CMAPSS dataset files
-│   └── processed/                      # Preprocessed and feature-engineered data
-│
+│   └── raw/                            # Original NASA CMAPSS dataset file
 ├── models/                             # Saved model files
 │   ├── xgboost/                        # XGBoost model artifacts
 │   ├── lstm_autoencoder/               # LSTM autoencoder model artifacts
 │   └── lstm_forecaster/                # LSTM forecaster model artifacts
-│
-├── notebooks/
-│   ├── 01_data_preparation.ipynb       # Data loading and preprocessing
-│   ├── 02_xgboost_rul_prediction.ipynb # XGBoost model training and evaluation
-│   ├── 03_lstm_autoencoder_anomaly_detection.ipynb
-│   ├── 04_lstm_forecaster_rul_prediction.ipynb
-│   └── 05_model_evaluation.ipynb       # Comprehensive evaluation and visualization
-│
+├── src/
+│   ├── data_preparation.ipynb       # Data loading and analyzing
+│   ├── xgboost_rul_prediction.ipynb # XGBoost model training and evaluation
+│   ├── lstm_autoencoder_anomaly_detection.ipynb # lstm_autoencoder model training and evaluation
+│   └── lstm_forecaster_rul_prediction.ipynb # lstm_forecaster model training and evaluation
 ├── scripts/
-│   ├── data_utils.py                   # Data loading and preprocessing utilities
-│   ├── feature_engineering.py          # Feature extraction and engineering functions
-│   ├── model_utils.py                  # Model training and evaluation utilities
+│   ├── feature_engineering.py          # Feature extraction and engineering function
 │   └── visualization.py                # Plotting and visualization functions
-│
 ├── results/                            # Performance metrics and visualizations
-│   ├── figures/                        # Generated plots and charts
+│   ├── validation/                        # Generated plots and charts
 │   └── metrics/                        # Model performance metrics
-│
 ├── requirements.txt                    # Python dependencies
 ├── setup.py                            # Package installation script
 ├── .gitignore                          # Git ignore file
-└── README.md                           # This file
+└── README.md                         
 ```
 
 ## Models Overview
