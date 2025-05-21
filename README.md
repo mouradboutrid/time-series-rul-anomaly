@@ -224,6 +224,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - NASA Prognostics Center for the CMAPSS dataset
 - Open-source libraries: XGBoost, TensorFlow, Keras, Scikit-learn
-- Research papers:
-  - Heimes, F. O. (2008, October). Recurrent neural networks for remaining useful life estimation. In 2008 International Conference on Prognostics and Health Management (pp. 1-6). IEEE.
-  - Li, X., Ding, Q., & Sun, J. Q. (2018). Remaining useful life estimation in prognostics using deep convolution neural networks. Reliability Engineering & System Safety, 172, 1-11.
