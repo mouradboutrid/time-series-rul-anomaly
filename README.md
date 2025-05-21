@@ -181,10 +181,6 @@ Detailed evaluation metrics and example plots can be found in `05_model_evaluati
 - LSTM autoencoder can detect anomalies approximately 30-50 cycles before failure
 - LSTM forecaster provides accurate RUL trajectories up to 50 cycles into the future
 
-Sample visualization:
-
-![RUL Prediction Example](results/figures/rul_prediction_example.png)
-
 ## Future Work
 
 - **Model Improvements**:
