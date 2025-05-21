@@ -25,8 +25,8 @@ time-series-rul-anomaly/
 │   ├── lstm_autoencoder_anomaly_detection.ipynb    # lstm_autoencoder model training and evaluation
 │   └── lstm_forecaster_rul_prediction.ipynb        # lstm_forecaster model training and evaluation             
 ├── results/                            # Performance metrics and visualizations
-│   ├── validation/                        # Generated plots and charts
-│   └── metrics/                        # Model performance metrics
+│   ├── validation                      # Generated plots and charts
+│   └── metrics                         # Model performance metrics
 ├── requirements.txt                    # Python dependencies
 ├── setup.py                            # Package installation script
 └── README.md                         
